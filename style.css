@@ -36,3 +36,11 @@ p {
     color: #666;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+
+footer {
+    background: linear-gradient(to right, rgb(137, 177, 143), #4804ae);
+    color: #000000;
+    padding: 1em 0;
+    text-align: center;
+    display: inline;
+}
