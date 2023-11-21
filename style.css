@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -12,15 +13,22 @@ header {
     color: #000000;
     padding: 1em 0;
     text-align: center;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 50%;
 }
 
 section {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 100%;
+    margin: 2px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #67cd08a2;
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform .2s;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 30%;
 }
 
 section:hover {
@@ -28,12 +36,12 @@ section:hover {
 }
 
 h1, h2, h3 {
-    color: #ff416c;
+    color: #8a0202;
 }
 
 p {
     line-height: 1.6;
-    color: #666;
+    color: #000000;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -45,5 +53,7 @@ footer {
     display: inline-block;
     list-style: none;
     width: 100%;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 30%;
     
 }
