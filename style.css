@@ -42,5 +42,8 @@ footer {
     color: #000000;
     padding: 1em 0;
     text-align: center;
-    display: inline;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    
 }
