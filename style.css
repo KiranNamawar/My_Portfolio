@@ -5,11 +5,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color:bisque;
+   
+    
 }
 
 header {
-    background: linear-gradient(to right, rgb(39, 152, 58), #471f85);
+   background-color: aqua;
     color: #000000;
     padding: 1em 0;
     text-align: center;
@@ -17,36 +19,33 @@ header {
     border-bottom-left-radius: 50%;
 }
 
-section {
-    max-width: 100%;
-    margin: 2px;
-    padding: 20px;
-    background-color: #67cd08a2;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform .2s;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 25%;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 30%;
+.construction{
+    font-size: 10rem;
+   background-color:greenyellow;
+   border-left: 1rem solid #8a0202;
+   border-top-right-radius: 75%;
+   
+article{
+    background-color: aquamarine;
 }
 
-section:hover {
+/* section:hover {
     transform: scale(1.01);
-}
+} */
 
-h1, h2, h3 {
+/* h1, h2, h3 {
     color: #8a0202;
-}
+} */
 
 p {
     line-height: 1.6;
-    color: #000000;
+    color: #577b18;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color;: 
 }
 
 footer {
-    background: linear-gradient(to right, rgb(137, 177, 143), #4804ae);
+   background-color: burlywood;
     color: #000000;
     padding: 1em 0;
     text-align: center;
