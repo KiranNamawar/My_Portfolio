@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -18,13 +20,19 @@ section {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform .2s;
+}
+
+section:hover {
+    transform: scale(1.01);
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #ff416c;
 }
 
 p {
     line-height: 1.6;
     color: #666;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
