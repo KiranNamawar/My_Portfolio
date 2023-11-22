@@ -11,12 +11,17 @@ function getRandomColor() {
 function colorise() {
   const color = document.querySelector("article");
   color.style.backgroundColor = getRandomColor();
-  color.style.border = "dashed 1rem";
+  color.style.border = "dashed 0.5rem";
   color.style.borderColor = getRandomColor();
   color.style.padding = "20px";
+
+  // const colorText = document.querySelectorAll("article p");
+  // for (let i = 0; i < colorText.length; i++) {
+  //   colorText[i].style.color = getRandomColor();
   
   const about = document.querySelector("h2");
-  about.style.border = "2px solid black";
+  about.style.border = "4px dotted";
+  about.style.borderColor = getRandomColor();
 
   const tryAgain = document.querySelector("button");
   tryAgain.innerHTML = "Try Again";
