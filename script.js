@@ -17,16 +17,21 @@ function colorise() {
   color.style.fontFamily ="cursive";
   color.style.borderRadius = "20px";
 
-  // const colorText = document.querySelectorAll("article p");
-  // for (let i = 0; i < colorText.length; i++) {
-  //   colorText[i].style.color = getRandomColor();
+
+  const colorText = document.querySelectorAll("article p").forEach((p) => p.style.color = getRandomColor());
+
+  const colorTitle = document.querySelector(".about");
+  colorTitle.style.color = getRandomColor();
+
   
   const about = document.querySelector("h2");
   about.style.border = "4px dotted";
   about.style.borderColor = getRandomColor();
 
   const tryAgain = document.querySelector("button");
-  tryAgain.innerHTML = "Try Again";
+  tryAgain.innerHTML = "↺";
+  tryAgain.style.backgroundColor = getRandomColor();
+  // tryAgain.style.color = getRandomColor();
 }
 
 
