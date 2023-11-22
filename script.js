@@ -16,6 +16,7 @@ function colorise() {
   color.style.padding = "20px";
   color.style.fontFamily ="cursive";
   color.style.borderRadius = "20px";
+  color.style.fontSize = "1.5rem"
 
 
   const colorText = document.querySelectorAll("article p").forEach((p) => p.style.color = getRandomColor());
