@@ -11,7 +11,8 @@ function getRandomColor() {
 function colorise() {
   const color = document.querySelector("article");
   color.style.backgroundColor = getRandomColor();
-  color.style.borderRadius = "10%";
+  color.style.border = "dashed 1rem";
+  color.style.borderColor = getRandomColor();
   color.style.padding = "20px";
   
   const about = document.querySelector("h2");
