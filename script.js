@@ -32,7 +32,8 @@ function colorise() {
   const tryAgain = document.querySelector("button");
   tryAgain.innerHTML = "↺";
   tryAgain.style.backgroundColor = getRandomColor();
-  // tryAgain.style.color = getRandomColor();
+  tryAgain.style.fontSize = "1.5rem";
+  tryAgain.style.padding = "0.2rem 0.7rem";
 }
 
 
