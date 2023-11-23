@@ -1,4 +1,5 @@
 
+// Get Random Color function
 function getRandomColor() {
   const letters = '0123456789ABCDEF';
   let color = '#';
@@ -7,6 +8,8 @@ function getRandomColor() {
   }
   return color;
 }
+//----------------------------------------------------//
+
 
 function colorise() {
   const color = document.querySelector("article");
