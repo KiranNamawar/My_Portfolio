@@ -38,7 +38,11 @@ h2{
     font-size: 2em;
     font-weight: 800;
     padding: 0.5em 0;
-    color: black;
+    color:blueviolet;
+}
+
+footer h2 {
+    color: #000;
 }
 
 button{
