@@ -17,11 +17,20 @@ header {
     border-bottom-left-radius: 50%;
 }
 
-   
+nav  li {
+display: inline-block;
+list-style: none;
+border: 1px dashed burlywood;
+border-radius: 5%;
+padding: 1%;
+margin: 1%;
+}
+article{
+    margin: 2%;
+}
+
 article p {
     color: rgb(255, 255, 255);
-    
-    
 }
 
 h2{
@@ -72,7 +81,7 @@ footer li{
     text-align: center;
 }
 
-footer li a {
+a {
     text-decoration: none;
     font-size: large;
     font-weight: 800;

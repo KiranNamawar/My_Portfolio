@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -15,12 +15,22 @@
         <h1>Kiran Namawar</h1>
         <p>Web Developer | Graphic Designer</p>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+        </ul>
+    </nav>
     <video autoplay muted loop id="myVideo">
         <source src="media/construction_animation_video.mp4" type="video/mp4">
     </video>
 
     <article>
-        <h2 class="about">About Me</h2>
+        <h2 class="about" id="about">About Me</h2>
         <button onclick="colorise();">Style Me</button>
        <p>
                I am a passionate learner in the field of web development, 3D animation, and illustrations. 
