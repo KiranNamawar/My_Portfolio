@@ -24,10 +24,10 @@ text-align: center;
 nav  li {
 display: inline-block;
 list-style: none;
-border: 1px dashed burlywood;
-border-radius: 5%;
-padding: 1%;
-margin: 1%;
+/* border: 1px dashed burlywood;
+border-radius: 5%; */
+padding: 1rem;
+margin: 1rem;
 }
 
 article{
@@ -82,11 +82,11 @@ footer {
 
 footer li{
     display: inline-block;
-    padding: 0.5em 2em;
-    margin: 0.25em 1em;
-    border: #000000 1px solid;
-    border-radius: 10%;
-    background-color: skyblue;
+    padding: 1rem;
+    margin: 1rem;
+    /* border: #000000 1px dashed;
+    border-radius: 10%; */
+    /* background-color: skyblue; */
     text-align: center;
 }
 
@@ -94,9 +94,20 @@ a {
     text-decoration: none;
     font-size: large;
     font-weight: 800;
+    border: 0.2em dashed red;
+    border-radius: 10%;
+    color:black;
+    padding: 0.5em;
+    background-color:floralwhite;
 }
 
 footer ul{
     padding: 0;
     margin: 0;
+}
+
+a:hover {
+    padding: 0.75em;
+    background-color: aqua;
+    text-shadow: 0.1em 0.1em 0.1em #83ac07;
 }
