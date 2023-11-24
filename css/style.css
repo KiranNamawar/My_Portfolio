@@ -96,6 +96,7 @@ a {
     font-weight: 800;
     border: 0.2em dashed red;
     border-radius: 10%;
+    border-bott
     color:black;
     padding: 0.5em;
     background-color:floralwhite;
@@ -110,4 +111,5 @@ a:hover {
     padding: 0.75em;
     background-color: aqua;
     text-shadow: 0.1em 0.1em 0.1em #83ac07;
+    border: yellow 0.2em dashed;
 }
