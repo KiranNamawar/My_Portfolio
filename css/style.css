@@ -110,3 +110,19 @@ a:hover {
   text-shadow: 0.1em 0.1em 0.1em #83ac07;
   border: yellow 0.2em dashed;
 }
+
+.skills ul {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+}
+
+aside ul li {
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+  border: #000000 1px dashed;
+  border-radius: 10%;
+  background-color: skyblue;
+  text-align: center;
+}
