@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width" name="viewport" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>Calculator</h1>
+
+      <form>
+        <input type="text" id="result" readonly />
+        <br />
+        <input
+          type="button"
+          value="1"
+          onclick="appendNumber(1)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="2"
+          onclick="appendNumber(2)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="3"
+          onclick="appendNumber(3)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="+"
+          onclick="appendOperator('+')"
+          class="operator-button"
+        />
+        <br />
+        <input
+          type="button"
+          value="4"
+          onclick="appendNumber(4)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="5"
+          onclick="appendNumber(5)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="6"
+          onclick="appendNumber(6)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="-"
+          onclick="appendOperator('-')"
+          class="operator-button"
+        />
+        <br />
+        <input
+          type="button"
+          value="7"
+          onclick="appendNumber(7)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="8"
+          onclick="appendNumber(8)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="9"
+          onclick="appendNumber(9)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="*"
+          onclick="appendOperator('*')"
+          class="operator-button"
+        />
+        <br />
+        <input
+          type="button"
+          value="0"
+          onclick="appendNumber(0)"
+          class="number-button"
+        />
+        <input
+          type="button"
+          value="C"
+          onclick="clearResult()"
+          class="clear-button"
+        />
+        <input
+          type="button"
+          value="="
+          onclick="calculate()"
+          class="operator-button"
+        />
+        <input
+          type="button"
+          value="/"
+          onclick="appendOperator('/')"
+          class="operator-button"
+        />
+      </form>
+    </div>
+  </body>
+</html>

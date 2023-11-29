@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.number-button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.operator-button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.clear-button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+#result {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.calculator {
+  width: 250px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

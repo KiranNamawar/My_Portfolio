@@ -1,128 +1,162 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
-body {
+* {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(0, 0, 0);
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(46, 119, 119);
 }
 
 header {
-  background-color: aqua;
-  color: #000000;
-  padding: 1em 0;
+  background-color: rgb(89, 155, 155);
+  padding: 3rem;
   text-align: center;
-  border-bottom-right-radius: 25%;
-  border-bottom-left-radius: 50%;
+  font-size: 10rem;
+  color: white;
 }
 
-nav {
+.header-text {
   text-align: center;
+  font-size: 2.9rem;
+  color: white;
+}
+.nav-bar {
+  overflow: hidden;
+  background-color: rgb(66, 119, 119);
+  font-size: 8rem;
 }
 
-nav li {
-  display: inline-block;
-  list-style: none;
-  /* border: 1px dashed burlywood;
-border-radius: 5%; */
-  padding: 1rem;
-  margin: 1rem;
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-article {
-  margin: 2%;
+.nav-item {
+  float: left;
 }
 
-article p {
-  color: rgb(255, 255, 255);
-}
-
-h2 {
+.nav-link {
+  display: block;
+  color: white;
   text-align: center;
-  font-size: 2em;
-  font-weight: 800;
-  padding: 0.5em 0;
-  color: blueviolet;
-}
-
-footer h2 {
-  color: #000;
-}
-
-button {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 10%;
-  padding: 0.5em 1em;
-  font-size: large;
-  font-weight: 800;
-  margin: 0.5em 0.5em;
+  padding: 1.3rem;
+  text-decoration: none;
 }
 
 video {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.about {
+  background-color: rgb(44, 142, 142);
+  padding: 1rem;
+  display: grid;
+  grid-template-areas:
+    "heading heading . button"
+    "para1 para1 para1 ."
+    ". para2 para2 para2"
+    "para3 para3 para3 ."
+    ". para4 para4 para4";
+}
+
+.about-heading {
+  font-size: 3rem;
+  color: white;
+  border-bottom: 0.3rem dashed black;
+  margin-bottom: 2rem;
+  display: inline-block;
+  grid-area: heading;
+}
+
+.style-me {
+  font-size: 1.5rem;
+  border: solid 0.2rem black;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  grid-area: button;
+  height: 3rem;
+}
+
+.about-text {
+  font-size: 2rem;
+  color: white;
+  margin: 1rem;
+}
+.para1 {
+  grid-area: para1;
+}
+.para3 {
+  text-align: left;
+  grid-area: para3;
+}
+.para2 {
+  grid-area: para2;
+}
+.para4 {
+  text-align: right;
+  grid-area: para4;
+}
+
+.skills {
+  color: white;
+  background-color: rgb(7, 124, 124);
+  font-size: 1rem;
+}
+
+.skills-heading {
+  font-size: 3em;
+  color: white;
+  border-bottom: 0.3rem dashed black;
+  margin-bottom: 2rem;
+  display: inline-block;
+  margin: 1rem;
+  display: inline-block;
+}
+
+.skills-list {
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.skills-item {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 2rem;
+  border-bottom: 0.2rem solid black;
+  text-shadow: 0.3rem 0.4rem 0.1rem black;
 }
 
 footer {
-  background-color: burlywood;
-  color: #000000;
-  padding: 0.5em 0;
-  text-align: center;
-  display: inline-block;
-  list-style: none;
-  width: 100%;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
+  background-color: rgb(4, 94, 94);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-footer li {
-  display: inline-block;
-  padding: 1rem;
-  margin: 1rem;
-  /* border: #000000 1px dashed;
-    border-radius: 10%; */
-  /* background-color: skyblue; */
+.contact-heading {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+
+  display: inline;
+}
+
+.contact-list {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  font-size: large;
-  font-weight: 800;
-  border: 0.2em dashed red;
-  border-radius: 10%;
-  color: black;
-  padding: 0.5em;
-  background-color: floralwhite;
-}
-
-footer ul {
-  padding: 0;
-  margin: 0;
-}
-
-a:hover {
-  padding: 0.75em;
-  background-color: aqua;
-  text-shadow: 0.1em 0.1em 0.1em #83ac07;
-  border: yellow 0.2em dashed;
-}
-
-.skills ul {
-  display: inline-block;
-  list-style: none;
-  align-items: center;
-}
-
-aside ul li {
-  display: inline-block;
-  padding: 1rem;
-  margin: 1rem;
-  border: #000000 1px dashed;
-  border-radius: 10%;
-  background-color: skyblue;
-  text-align: center;
+.contact-list-item {
+  font-size: 2rem;
+  color: white;
+  display: inline;
+  padding: 2rem 3rem;
 }

@@ -1,0 +1,86 @@
+/* FILEPATH: /c:/Users/kiran/Documents/GitHub/kirannamawar/css/projects.css */
+
+/* Container for the projects */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Individual project card */
+.project-card {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Project title */
+.project-title {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+/* Project description */
+.project-description {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 8px;
+}
+
+/* Project image */
+.project-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.project-date {
+  font-size: 14px;
+  color: rgb(202, 208, 15);
+  margin-bottom: 8px;
+}
+
+/* Project link */
+.project-link {
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: relative;
+  bottom: 15px;
+  left: 160px;
+}
+
+/* Project link on hover */
+.project-link:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project-button {
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: relative;
+  bottom: 15px;
+  left: 160px;
+}
