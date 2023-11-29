@@ -96,6 +96,7 @@ video {
   grid-area: para3;
 }
 .para2 {
+  text-align: right;
   grid-area: para2;
 }
 .para4 {
