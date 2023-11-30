@@ -9,6 +9,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: rgb(38, 122, 150);
+  width: 100vw;
 }
 header {
   background-color: rgb(100, 152, 170);
