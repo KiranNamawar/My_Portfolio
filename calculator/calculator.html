@@ -120,14 +120,14 @@
         />
         <input
           type="button"
-          value="C"
-          onclick="clearResult()"
-          class="clear-button"
+          value="."
+          onclick="appendDecimal()"
+          class="number-button"
         />
         <input
           type="button"
-          value="="
-          onclick="calculate()"
+          value="%"
+          onclick="calculateDiscount()"
           class="operator-button"
         />
         <input
@@ -135,6 +135,19 @@
           value="/"
           onclick="appendOperator('/')"
           class="operator-button"
+        />
+        <br/>
+        <input
+          type="button"
+          value="Clear"
+          onclick="clearResult()"
+          class="clear-button"
+        />
+        <input
+          type="button"
+          value="="
+          onclick="calculate()"
+          class="operator-button calculate-button"
         />
       </form>
     </div>

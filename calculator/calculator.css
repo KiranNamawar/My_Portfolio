@@ -23,7 +23,7 @@ form {
   border: 0.3rem groove #ccc;
   border-radius: 1rem;
   width: 30rem;
-  height: 42rem;
+  height: 48rem;
   background-color: rgb(178, 184, 241);
   box-shadow: rgb(158, 153, 86) 0.2rem 0.2rem 0.2rem;
 }
@@ -55,6 +55,11 @@ form {
   font-size: 5rem;
   background-color: #44c977;
   border: 0.2rem dashed #ccc;
+  width: 13rem;
+}
+
+.calculate-button {
+  width: 13rem;
 }
 
 #result {
