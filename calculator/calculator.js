@@ -10,11 +10,6 @@ function appendDecimal() {
   document.getElementById("result").value += ".";
 }
 
-// function calculatePercentage(value, percentage) {
-
-//   return (value * percentage) / 100;
-// }
-
 function calculate() {
   var result = eval(document.getElementById("result").value);
   document.getElementById("result").value = result;
@@ -22,4 +17,12 @@ function calculate() {
 
 function clearResult() {
   document.getElementById("result").value = "";
+}
+
+function backspace() {
+  var result = document.getElementById("result").value;
+  document.getElementById("result").value = result.substring(
+    0,
+    result.length - 1
+  );
 }

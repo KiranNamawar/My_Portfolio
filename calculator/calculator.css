@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
 * {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -38,6 +40,7 @@ form {
   font-size: 5rem;
   border-radius: 10%;
   box-shadow: rgb(158, 153, 86) 0.2rem 0.2rem 0.2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .number-button {
@@ -52,10 +55,11 @@ form {
 }
 
 .clear-button {
-  font-size: 5rem;
+  font-size: 4rem;
   background-color: #44c977;
   border: 0.2rem dashed #ccc;
   width: 13rem;
+  padding: 1rem;
 }
 
 .calculate-button {
@@ -71,6 +75,8 @@ form {
   border: 0.2rem solid #e35454;
   background-color: #eaf0b3;
   border-radius: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: regular;
 }
 
 .calculator {
