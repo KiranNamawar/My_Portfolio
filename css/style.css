@@ -6,26 +6,23 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(46, 119, 119);
+  font-family: 'Tektur', "Roboto", sans-serif;
+  background-color: wheat;
+  color: black;
 }
 
 header {
-  background-color: rgb(89, 155, 155);
   padding: 3rem;
   text-align: center;
   font-size: 10rem;
-  color: white;
 }
 
 .header-text {
   text-align: center;
   font-size: 2.9rem;
-  color: white;
 }
 .nav-bar {
   overflow: hidden;
-  background-color: rgb(31, 96, 96);
   font-size: 8rem;
 }
 
@@ -42,7 +39,6 @@ header {
 
 .nav-link {
   display: block;
-  color: white;
   text-align: center;
   padding: 1.3rem;
   text-decoration: none;
@@ -54,7 +50,6 @@ video {
 }
 
 .about {
-  background-color: rgb(44, 142, 142);
   padding: 1rem;
   display: grid;
   grid-template-areas:
@@ -67,7 +62,6 @@ video {
 
 .about-heading {
   font-size: 3rem;
-  color: white;
   border-bottom: 0.3rem dashed black;
   margin-bottom: 2rem;
   display: inline-block;
@@ -85,7 +79,6 @@ video {
 
 .about-text {
   font-size: 2rem;
-  color: white;
   margin: 1rem;
 }
 .para1 {
@@ -105,14 +98,11 @@ video {
 }
 
 .skills {
-  color: white;
-  background-color: rgb(7, 124, 124);
   font-size: 1rem;
 }
 
 .skills-heading {
   font-size: 3em;
-  color: white;
   border-bottom: 0.3rem dashed black;
   margin-bottom: 2rem;
   display: inline-block;
@@ -133,11 +123,10 @@ video {
   font-size: 2rem;
   margin: 1rem 1rem;
   border-bottom: 0.2rem solid black;
-  text-shadow: 0.3rem 0.4rem 0.1rem black;
+  text-shadow: 0.3rem 0.4rem 0.5rem gray;
 }
 
 footer {
-  background-color: rgb(4, 94, 94);
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -146,8 +135,6 @@ footer {
 .contact-heading {
   text-align: center;
   font-size: 3rem;
-  color: rgb(255, 255, 255);
-
   display: inline;
 }
 
@@ -157,7 +144,6 @@ footer {
 
 .contact-list-item {
   font-size: 2rem;
-  color: white;
   display: inline;
   padding: 2rem 2rem;
-}
+} 
