@@ -8,12 +8,10 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Tetur' Arial, sans-serif;
   text-align: center;
-  background-color: rgb(88, 182, 213);
 }
 header {
-  background-color: rgb(100, 152, 170);
 }
 
 form {
